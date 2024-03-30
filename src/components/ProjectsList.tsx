@@ -19,8 +19,8 @@ function ProjectsList() {
             Technology: <span className="font-light">{prod.technology}</span>
           </p>
           <div className="flex gap-x-3 mt-6">
-            <ButtonLink link={prod.githubLink} text="Github ->" />
-            <ButtonLink link={prod.siteLink} text="Site ->" />
+            <ButtonLink link={prod.githubLink} text="Github" />
+            <ButtonLink link={prod.siteLink} text="Site" />
           </div>
         </div>
       ))}
