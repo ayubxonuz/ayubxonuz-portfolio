@@ -1,3 +1,9 @@
+import ProjectsList from "@/components/ProjectsList"
+
 export default function Home() {
-  return <main></main>
+  return (
+    <main>
+      <ProjectsList />
+    </main>
+  )
 }

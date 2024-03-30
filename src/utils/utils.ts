@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    id: 1,
+    image: "/designo.png",
+    githubLink: "https://github.com/ayubxonuz/DesignoSite",
+    siteLink: "https://ayubxonuz-designosite.vercel.app",
+    technology: "HTML, CSS, SCSS, responsive",
+    title: "Designo Site",
+    info: "Designs and digital branding solutions",
+  },
+  {
+    id: 2,
+    image: "/countries.png",
+    githubLink: "https://github.com/ayubxonuz/RestCountries",
+    siteLink: "https://ayubxonuz-restcountries.vercel.app",
+    technology: "HTML, CSS, JS, responsive",
+    title: "Rest Countries",
+    info: "Through this site you can get information about the country's name, population, location, currency and capital",
+  },
+  {
+    id: 3,
+    image: "/devfinder.png",
+    githubLink: "https://github.com/ayubxonuz/devfinder",
+    siteLink: "https://ayubxonuz-devfinder.vercel.app",
+    technology: "ReactJS,  API, responsive",
+    title: "Devfinder",
+    info: "Find skilled GitHub developers effortlessly. Our platform connects you with top-tier talent for project success. Empower your development journey by finding the right GitHub developers through our tailored platform",
+  },
+  {
+    id: 4,
+    image: "/recipes.png",
+    githubLink: "https://github.com/ayubxonuz/RecipesKitchen",
+    siteLink: "https://ayubxonuz-recipes.vercel.app",
+    technology: "ReactJS, React Router DOM, Firebase, responsive",
+    title: "Recipes Kitchen",
+    info: "Register by email. Data is stored in firebase. Everyone can add and delete recipes as much as they want",
+  },
+  {
+    id: 5,
+    image: "/ecommerce.png",
+    githubLink: "https://github.com/ayubxonuz/ecommerce",
+    siteLink: "https://ayubxonuz-ecommerce.vercel.app",
+    technology:
+      "ReactJs, Redux Toolkit, Firebase Auth,  TailwindCSS, DaisyUI, API, responsive",
+    title: "Audiophile-ecommerce",
+    info: "This website is for home appliances. It can be bought (fake).There are input, output and multiple functions. You'll find out the rest when you enter :)",
+  },
+  {
+    id: 6,
+    image: "/invoice.png",
+    githubLink: "https://github.com/ayubxonuz/invoice-app",
+    siteLink: "https://ayubxonuz-invoice.vercel.app",
+    technology:
+      "ReactJs, Redux Toolkit,  TailwindCSS, DaisyUI, API, responsive",
+    title: "Invoices-app",
+    info: "Invoices is a website for viewing and receiving payment history. (fake)",
+  },
+]

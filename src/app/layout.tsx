@@ -3,6 +3,7 @@ import {Inter} from "next/font/google"
 import "./globals.css"
 import Navbar from "@/components/Navbar"
 import NextTopLoader from "nextjs-toploader"
+import Footer from "@/components/Footer"
 
 const inter = Inter({subsets: ["latin"]})
 
@@ -18,10 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} max-container`}>
-        <NextTopLoader height={5} />
-        <Navbar />
-        {children}
+      <body className={`${inter.className}`}>
+        <div className="max-container">
+          <NextTopLoader height={5} />
+          <Navbar />
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   )
