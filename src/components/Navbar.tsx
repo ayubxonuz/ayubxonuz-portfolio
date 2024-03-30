@@ -1,5 +1,5 @@
 import Link from "next/link"
-import ChatIcon from "./ChatIcon"
+import CloudIcon from "./CloudIcon"
 
 function Navbar() {
   return (
@@ -14,13 +14,15 @@ function Navbar() {
         >
           AyubxonUz
         </Link>
-        <Link
+        <a
+          download={"AyubxonsResume"}
+          target="_blank"
           className="font-medium flex items-center gap-2 transition select-none text-slate-700 hover:opacity-65"
-          href="/contact"
+          href={"/myresume.pdf"}
         >
-          Contact
-          <ChatIcon />
-        </Link>
+          Resume
+          <CloudIcon />
+        </a>
       </nav>
     </header>
   )
