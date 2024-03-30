@@ -5,7 +5,7 @@ function ProjectsList() {
   return (
     <div className="mt-10">
       {projects.map((prod) => (
-        <div className="bg-white p-5 mb-3 shadow-md rounded-md">
+        <div key={prod.id} className="bg-white p-5 mb-3 shadow-md rounded-md">
           <img
             src={prod.image}
             className="object-cover rounded-md"
