@@ -18,7 +18,7 @@ function Navbar() {
           download={"AyubxonsResume"}
           target="_blank"
           className="font-medium flex items-center gap-2 transition select-none text-slate-700 hover:opacity-65"
-          href={"/myresume.pdf"}
+          href={"/ayubxonsResume.pdf"}
         >
           Resume
           <CloudIcon />
