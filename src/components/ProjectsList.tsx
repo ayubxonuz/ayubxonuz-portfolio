@@ -1,14 +1,17 @@
 import {projects} from "@/utils/utils"
 import ButtonLink from "./ButtonLink"
+import Image from "next/image"
 
 function ProjectsList() {
   return (
     <div className="mt-10">
       {projects.map((prod) => (
         <div key={prod.id} className="bg-white p-5 mb-3 shadow-md rounded-md">
-          <img
+          <Image
+            width={704}
+            height={350}
             src={prod.image}
-            className="object-cover rounded-md"
+            className="object-cover rounded-md bg-white"
             alt="Project image"
           />
           <h4 className="font-bold text-xl mt-4">{prod.title}</h4>
